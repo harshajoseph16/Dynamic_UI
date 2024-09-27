@@ -115,7 +115,7 @@ const PerksSection = () => {
                        
 
                         <div className='divbtm'> 
-                        <div className=" bg-white"><img src='easily.png'></img></div>
+                        <div className=" bg-white p-ab"><img src='easily.png'></img></div>
                         </div>
 
                   
@@ -127,6 +127,56 @@ const PerksSection = () => {
                 
                 </div>
             </div>
+
+            <div className="perkmain">
+            <div className="perk-btm-sec pl">
+                  
+
+                    <div className="perk-row">
+                    <div class="topsect"><h3>Rock-Solid Compliance</h3>
+                    <p>Stay GCC law-aligned amidst changing regulations. Worry-free compliance across locations, preventing penalties and legal hassles.  </p></div>
+
+                    </div>
+
+                    <div className="perk-row">
+                    <div className="app-icon">
+                    <div className="app-icon-wrap">
+                        <div className="app-clr "><img src='heart.png'></img></div>
+
+                    </div>
+
+                    <div className="app-icon-wrap">
+                        <div className="app-clr "><img src='mohre.png'></img></div>
+                        <div className="app-clr pink "></div>
+
+                    </div>
+
+                    
+                    <div className="app-icon-wrap ">
+                        <div className="app-clr green  "><img src='green.png'></img></div>
+
+                    </div>
+
+                   
+                </div>
+                    </div>
+                </div>
+
+                <div className="perk-btm-sec pp">
+                    <div className="perk-row">
+                    <div class="topsect"><img src='portrait-of-young-female.png'></img></div>
+
+                    </div>
+
+                    <div className="perk-row">
+                    <div class="topsect"><h3>Cloud-Powered Savings</h3>
+                    <p>Centralize people management with one HR software. Save time and cut costs by leveraging cloud technology.   </p></div>
+
+                    </div>
+                </div>
+
+                
+                </div> 
 
 </div>
 </div>

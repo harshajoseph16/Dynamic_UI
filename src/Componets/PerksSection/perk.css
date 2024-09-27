@@ -77,7 +77,7 @@ font-weight: bold;
 .second-sec-top .whites {
     background-color: white;
     border-radius: 20px 20px 0 0px;
-    padding: 0px 40px 0px 40px;
+    padding: 20px 40px 10px 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -194,14 +194,22 @@ height: 32px;
 
 .pink {
     background-color: #FC1777 !important;
+    border-radius: 10px 0 0 10px;
+    width: 80px;
 }
 
 .orange {
     background-color: #FF8100 !important;
+    border-radius: 0px 20px 20px 0px;
 }
 
 .darkblue {
     background-color: #4442AD !important;
+    border-radius: 20px 0 0 20px;
+}
+
+.green {
+    border-radius: 20px 0 0 20px !important; 
 }
 .white {
     background-color: white!important;
@@ -217,7 +225,6 @@ height: 32px;
 .app-icon-wrapbtm {
     display: flex;
     flex-direction: row;
-    gap: 10px;
     width: 100%;
 }
 .app-icon-wrapbtm-clm {
@@ -285,4 +292,54 @@ font-size: 12px;
     font-weight: bold;
     border-radius: 5px;
   }
-  
+
+  .perk-btm-sec {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: rgb(138,112,176);
+background: linear-gradient(102deg, rgba(138,112,176,1) 59%, rgba(72,32,132,1) 90%);
+    margin-top: 50px;
+    border-radius: 20px;
+    color: white;
+  }
+  .perk-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 50%;
+  }
+  .pp {
+    padding: 30px 70px 0 0;
+  }
+  .pl {
+    padding:30px 0px 0px 40px;
+  }
+  .p-ab {
+    position: relative;
+    z-index: 9999;
+  }
+
+
+  @media only screen and (max-width: 420px) {
+    .perkmain {
+       display: grid;
+    }
+
+    .perk-btm-sec {
+        display: grid;
+        gap: 50px;
+
+    }
+    .perk-row {
+
+        width: 100%;
+  }
+
+  .pp {
+    padding: 20px;
+  }
+  .pl {
+    padding:20px;
+  }
+}
