@@ -1,0 +1,25 @@
+.footer-sub {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: start;
+}
+.footer-sub {
+    color: white;
+}
+
+.footer-sub p {
+    color: #cacaca!important;
+}
+
+.footer-sub a {
+    color: #cacaca!important;
+    text-decoration: none;
+    line-height: 35px;
+}
+.footer-app {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}

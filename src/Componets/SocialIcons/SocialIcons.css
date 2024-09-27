@@ -1,0 +1,27 @@
+.social-icons {
+    display: flex;
+    gap: 10px; /* Space between icons */
+    font-size: 24px; /* Icon size */
+    color: #333; /* Default color */
+  }
+
+  .social-icons i {
+    background-color: #C7C5CEC4;
+    border-radius: 50%;
+    padding: 11px 13px;
+    font-size: 13px;
+    color: #361863;
+
+
+  }
+  
+  .social-icons a {
+    color: #361863;
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  .social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  

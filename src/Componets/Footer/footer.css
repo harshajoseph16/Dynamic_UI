@@ -1,0 +1,132 @@
+.footer {
+    width: 100%;
+    background: rgb(23,12,52);
+    background: linear-gradient(158deg, rgba(23,12,52,1) 35%, rgba(72,32,132,1) 74%, rgba(58,134,255,1) 90%);
+    
+padding: 100px 0 ;
+color: white;
+}
+
+.footer-top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.footer-top .logo img {
+    width: 113px;
+    height: 33px;
+}
+.email-sec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-middle {
+    width: 100%;
+    margin-top: 100px;
+
+}
+.footer-logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top:  1px solid #69489A70;
+    border-bottom:  1px solid #69489A70;
+
+    padding: 20px 0;
+    justify-content: space-evenly;
+}
+.footer-btm {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-bt-privacy {
+    width: 100%;
+}
+
+.footer-bt-privacy ul  {
+    width: 100%;
+}
+.footer-bt-privacy ul li {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-decoration: none;
+}
+.footer-bt-privacy ul li a  {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+.footer-bt-privacy a {
+    position: relative;
+    padding-right: 10px; /* Space between link text and border */
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .footer-bt-privacy a::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #818181; 
+  }
+  
+  .footer-bt-privacy a:not(:last-child)::after {
+    display: inline-block;
+  }
+  
+  .footer-bt-privacy a:last-child::after {
+    display: none; 
+  }
+  
+@media only screen and (max-width: 420px) {
+    .footer-top {
+        width: 100%;
+        display: grid;
+    }
+
+    .email-sec {
+       
+        width: 100%;
+    }
+
+    .footer-social {
+       
+        align-items: center;
+    }
+
+    .footer-app img {
+        width: 40%;
+    }
+    .footer-app {
+       
+        flex-direction: row !important;
+}
+
+.footer-logos {
+    display: block;
+    text-align: center;
+
+}
+.footer-logos img {
+
+    margin-bottom: 30px;
+
+
+}
+}
