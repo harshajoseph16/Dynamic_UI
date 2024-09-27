@@ -1,0 +1,87 @@
+.top-head {
+    width: 100%;
+    background: rgb(254,190,217);
+    background: linear-gradient(111deg, rgba(254,190,217,1) 31%, rgba(200,221,255,1) 56%);
+        padding: 10px 10px;
+        text-align: center;
+        font-size: 12px;
+
+
+        
+}
+
+.top-head p  {
+    margin-bottom: 0;
+}
+
+.menubar {
+    width: 100%;
+    padding: 20px 0;
+    font-family: "Archivo", sans-serif !important;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-light .navbar-brand {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color:#000;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color:#000;
+}
+
+.logo {
+    width: 130px;
+    margin-right: 130px;
+    cursor: pointer;
+}
+.logo img {
+    width: auto;
+}
+.btn-div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: space-between;
+        gap: 100px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    .logo {
+        margin-right: 0;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        position: absolute;
+        height: 100vh;
+        background: black;
+        width: 100%;
+        padding: 10px;
+    }
+}

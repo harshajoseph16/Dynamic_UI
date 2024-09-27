@@ -1,8 +1,10 @@
 body {
-  background-color: black;
-  color: #fff;
-  font-family: "Archivo", sans-serif;
+  color: #010101;
+  font-family: "Archivo", sans-serif !important;
   font-size: 16px;
   overflow-x: hidden;
 
+}
+p {
+  margin-bottom: 0;
 }

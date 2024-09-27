@@ -1,0 +1,288 @@
+.perksection {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.top-sec {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin:  0 auto;
+    gap: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.top-sec h6 {
+    color: #FC1777;
+    font-size: 12px;
+    border-radius: 50px;
+    padding: 10px;
+    border: solid 1px #FC1777; 
+    width: auto;
+    margin: 0 auto;
+}
+
+.top-sec h1 {
+color: #361863;
+font-weight: bold;
+}
+
+.perkmain {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+.perksec-cnt {
+    width: 100%;
+    background:white;
+    padding: 20px ;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+}
+.bg-liner {
+    background: linear-gradient(180deg, rgba(255,174,92,1) 31%, rgba(253,65,144,1) 56%);
+
+}
+.second-sec {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.second-sec-top {
+    background: rgb(253,65,144);
+    background: linear-gradient(176deg, rgba(253,65,144,1) 30%, rgba(168,197,255,1) 68%);    width: 100%;
+    border-radius: 20px;
+    padding: 20px  20px 0px 20px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+
+}
+
+.second-sec-top .whites {
+    background-color: white;
+    border-radius: 20px 20px 0 0px;
+    padding: 0px 40px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+
+.second-sec-btm {
+    background: rgb(254,190,217);
+    background: linear-gradient(176deg, rgba(254,190,217,1) 24%, rgba(200,221,255,1) 47%);    width: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    height: 80%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.bg2 {
+    background: rgb(94,156,255);
+background: linear-gradient(336deg, rgba(94,156,255,1) 45%, rgba(105,72,154,1) 68%) ;
+
+}
+
+.perksec-cnt p {
+font-weight: normal;
+}
+
+.perksec-cnt-btm  {
+display: flex;
+flex-direction: column;
+background-color: white;
+border-radius: 20px;
+padding: 20px;
+
+}
+
+.perksec-cnt-btm h6 {
+    color: black;
+}
+.payroll {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+}
+.payroll-one {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.payroll-one p {
+    font-size: 12px;
+}
+.payroll-one img {
+vertical-align: middle;
+width: 31px;
+height: 32px;
+}
+.payroll-para {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 5px;
+}
+.wd-80 {
+    width: 80%;
+    background-color:#EBF3FF;
+    height: 10px;
+    border-radius: 20px;
+
+
+}
+
+.wd-40 {
+    width: 40%;
+
+}
+
+.app-icon {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: end;
+
+}
+
+.app-icon-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.app-clr {
+    background-color: #fff;
+    width: 115px;
+    height: 77px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+
+    
+}
+.blue {
+    background-color: #3375DF !important;
+}
+
+.pink {
+    background-color: #FC1777 !important;
+}
+
+.orange {
+    background-color: #FF8100 !important;
+}
+
+.darkblue {
+    background-color: #4442AD !important;
+}
+.white {
+    background-color: white!important;
+}
+.violet {
+    background-color: #401D77 !important;
+}
+.app-clr img , .bg-white img{
+    margin:  0 auto;
+
+}
+
+.app-icon-wrapbtm {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+.app-icon-wrapbtm-clm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.divbtm {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+
+}
+.bg-white {
+    background-color: #E4E4E5;
+    border-radius: 20px 0 20px 0;
+        display: flex;
+    width: 100%;
+    align-items: center;
+}
+.p-0 {
+    padding: 0;
+}
+.p-20 {
+    width: 100%;
+    padding: 20px;
+}
+.women_wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    gap: 20px;
+
+}
+.women_wrap p, .name-sec p  {
+color: #6F6881;
+font-size: 12px;
+}
+.tex-center {
+    text-align: center;
+}
+
+/* Container that holds the progress bar */
+.progress-bar-container {
+    width: 100%;
+    background-color: #EBF3FF;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 5px;
+    margin: 20px 0;
+  }
+  
+  /* The actual progress fill inside the container */
+  .progress-bar {
+    height: 100%;
+    background: rgb(252,23,119);
+    background: linear-gradient(102deg, rgba(252,23,119,1) 61%, rgba(168,197,255,1) 86%, rgba(168,197,255,1) 100%);    width: 60%;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    transition: width 0.3s ease;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
