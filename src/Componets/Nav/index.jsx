@@ -16,7 +16,6 @@ const Nav = () => {
 
             <div className="menubar">
                 <div className="container">
-                    <div className="menubar">
                         <nav className="navbar navbar-expand-lg navbar-light ">
                             <div className="container-fluid p-0">
                                 <a className="navbar-brand" href="#">
@@ -31,11 +30,7 @@ const Nav = () => {
                                 </button>
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul className="navbar-nav  mb-2 mb-lg-0">
-                                        <li className="nav-item">
-                                            <NavLink to="/" className="nav-link">
-                                                Home
-                                            </NavLink>
-                                        </li>
+                                       
                                         <li className="nav-item dropdown">
                                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 Products
@@ -46,11 +41,44 @@ const Nav = () => {
                                                 <li><NavLink to="/product3" className="dropdown-item">Product 3</NavLink></li>
                                             </ul>
                                         </li>
+                                        <li className="nav-item dropdown">
+                                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Solution
+                                            </a>
+                                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><NavLink to="/product1" className="dropdown-item">Solution 1</NavLink></li>
+                                                <li><NavLink to="/product2" className="dropdown-item">Solution 2</NavLink></li>
+                                                <li><NavLink to="/product3" className="dropdown-item">Solution 3</NavLink></li>
+                                            </ul>
+                                        </li>
+                                        <NavLink to="/Pricing" className="nav-link">
+                                        Pricing
+                                            </NavLink>
                                         <li className="nav-item">
-                                            <NavLink to="/contact" className="nav-link">
-                                                Solutions
+                                            <NavLink to="/PartnerProgram " className="nav-link">
+                                            Partner Program 
                                             </NavLink>
                                         </li>
+
+
+                                        <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><NavLink to="/product1" className="dropdown-item">Solution 1</NavLink></li>
+                                                <li><NavLink to="/product2" className="dropdown-item">Solution 2</NavLink></li>
+                                                <li><NavLink to="/product3" className="dropdown-item">Solution 3</NavLink></li>
+                                            </ul>
+
+                                            <li className="nav-item dropdown">
+                                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Resources
+                                            </a>
+                                            <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <li><NavLink to="/product1" className="dropdown-item">Resources 1</NavLink></li>
+                                                <li><NavLink to="/product2" className="dropdown-item">Resources 2</NavLink></li>
+                                            </ul>
+                                        </li>
+
+                                     
+
                                     </ul>
                                     <div className="btn-div">
                                         <Button name="EN " className="mainbtn" />
@@ -59,7 +87,7 @@ const Nav = () => {
                                 </div>
                             </div>
                         </nav>
-                    </div>
+                  
                 </div>
             </div>
         </>

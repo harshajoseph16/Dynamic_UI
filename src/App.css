@@ -8,3 +8,29 @@ body {
 p {
   margin-bottom: 0;
 }
+
+.top-sec {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin:  0 auto;
+  gap: 20px;
+  margin-top: 60px ;
+ 
+}
+
+.top-sec h6 {
+  color: #FC1777;
+  font-size: 12px;
+  border-radius: 50px;
+  padding: 10px;
+  border: solid 1px #FC1777; 
+  width: auto;
+  margin: 0 auto;
+}
+
+.top-sec h1 {
+color: #361863;
+font-weight: bold;
+}

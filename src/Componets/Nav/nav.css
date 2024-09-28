@@ -16,8 +16,9 @@
 
 .menubar {
     width: 100%;
-    padding: 20px 0;
+    padding: 10px 0;
     font-family: "Archivo", sans-serif !important;
+    border-bottom: 1px solid #ccc;
 
 }
 
@@ -80,8 +81,11 @@
         list-style: none;
         position: absolute;
         height: 100vh;
-        background: black;
+        background: rgb(253, 253, 253);
         width: 100%;
         padding: 10px;
+    }
+    .btn-div {
+        display: none;
     }
 }

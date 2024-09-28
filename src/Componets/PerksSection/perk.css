@@ -4,31 +4,6 @@
     margin: 20px 0 80px 0;
 }
 
-.top-sec {
-    width: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    margin:  0 auto;
-    gap: 20px;
-    margin-bottom: 20px;
-   
-}
-
-.top-sec h6 {
-    color: #FC1777;
-    font-size: 12px;
-    border-radius: 50px;
-    padding: 10px;
-    border: solid 1px #FC1777; 
-    width: auto;
-    margin: 0 auto;
-}
-
-.top-sec h1 {
-color: #361863;
-font-weight: bold;
-}
 
 .perkmain {
 
@@ -275,8 +250,8 @@ font-size: 12px;
     background-color: #EBF3FF;
     border-radius: 5px;
     overflow: hidden;
-    height: 5px;
-    margin: 20px 0;
+    height: 10px;
+    margin: 10px 0;
   }
   
   /* The actual progress fill inside the container */

@@ -1,3 +1,4 @@
+import TimerProgress from '../TimerProgress'
 import './perk.css'
 
 const PerksSection = () => {
@@ -53,26 +54,7 @@ const PerksSection = () => {
 
                     <div className="second-sec">
                         <div className="second-sec-top">
-                            <div className="whites">
-                                <div className="name-sec">
-                                    <div className="women_wrap">
-                                        <img src='women.png'></img>
-                                        <div className='flex-column'>
-                                        <h6>Fatima Saleem</h6>
-                                        <p>(Aug 07, 2024 - Aug 15, 2024)</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="name-sec tex-center">
-
-                                    <p>Hours Worked</p>
-                                    <h5>14:36 Hours</h5>
-                                    <div className="progress-bar-container">
-                                        <div className="progress-bar"></div>
-                                    </div>
-                                </div>
-
-                            </div>
+                            <TimerProgress/>
                         </div>
                         <div className="second-sec-btm">
                             <h2>Smart Insights</h2>

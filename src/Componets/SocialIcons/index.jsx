@@ -1,6 +1,5 @@
 import React from 'react';
-import './SocialIcons.css'; // Your CSS file
-
+import './SocialIcons.css'; 
 const SocialIcons = () => {
   return (
     <div className="social-icons">
