@@ -4,9 +4,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 
 const Nav = () => {
     const navigate = useNavigate();
-    const onLoginClick = () => {
-        navigate("/login");
-    };
+   
 
     return (
         <>
@@ -81,9 +79,12 @@ const Nav = () => {
 
                                     </ul>
                                     <div className="btn-div">
-                                        <Button name="EN " className="mainbtn" />
-                                        <Button name="Login " className="mainbtn" onClick={onLoginClick} />
-                                    </div>
+  <Button name="EN" className="mainbtn" />
+
+  <Button name="Login" className="mainbtn">
+  
+  </Button>
+</div>
                                 </div>
                             </div>
                         </nav>

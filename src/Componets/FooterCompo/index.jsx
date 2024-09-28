@@ -4,7 +4,6 @@ const FooterCompo = (props) => {
     return (
         <div className="col-md-3">
         <div className="footer-sub">
-        
 
             <h5>{props.heading}</h5>
             <h4>{props.heading2}</h4>
