@@ -16,8 +16,6 @@
   }
   .mainbtn:hover {
     background-color: #299ED9 !important;
-    /* transform: translateY(-0.15rem);
-    box-shadow: 0 0.25rem 0.75rem rgba(30,34,40,.15); */
     color: white;
     border:  solid 1px #ffffff;
 

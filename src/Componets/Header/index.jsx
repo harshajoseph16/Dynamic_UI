@@ -1,5 +1,9 @@
 import "header.css"
 
-const header =() => {
-
+const Header = () => {
+return(
+    <></>
+)
 };
+
+export default Header;

@@ -1,16 +1,16 @@
 .top-head {
     width: 100%;
-    background: rgb(254,190,217);
-    background: linear-gradient(111deg, rgba(254,190,217,1) 31%, rgba(200,221,255,1) 56%);
-        padding: 10px 10px;
-        text-align: center;
-        font-size: 12px;
+    background: rgb(254, 190, 217);
+    background: linear-gradient(111deg, rgba(254, 190, 217, 1) 31%, rgba(200, 221, 255, 1) 56%);
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 12px;
 
 
-        
+
 }
 
-.top-head p  {
+.top-head p {
     margin-bottom: 0;
 }
 
@@ -31,12 +31,14 @@
     color: #000;
 }
 
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color:#000;
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #000;
 }
 
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color:#000;
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #000;
 }
 
 .logo {
@@ -44,15 +46,18 @@
     margin-right: 130px;
     cursor: pointer;
 }
+
 .logo img {
     width: auto;
 }
+
 .btn-div {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     gap: 10px;
 }
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {
         display: flex !important;
@@ -85,6 +90,7 @@
         width: 100%;
         padding: 10px;
     }
+
     .btn-div {
         display: none;
     }

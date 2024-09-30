@@ -244,7 +244,6 @@ font-size: 12px;
     text-align: center;
 }
 
-/* Container that holds the progress bar */
 .progress-bar-container {
     width: 100%;
     background-color: #EBF3FF;
@@ -254,7 +253,6 @@ font-size: 12px;
     margin: 10px 0;
   }
   
-  /* The actual progress fill inside the container */
   .progress-bar {
     height: 100%;
     background: rgb(252,23,119);
