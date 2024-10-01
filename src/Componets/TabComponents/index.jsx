@@ -16,7 +16,7 @@ const TabComponents = () => {
       activeColor: '#6C63FF',
       card2Color: '#A4C7FF',
       card3Color: '#81B2FF',
-      borderColor: '#6C63FF', // Use activeColor for border
+      borderColor: '#6C63FF', 
     },
     {
       id: 'line',
@@ -28,7 +28,7 @@ const TabComponents = () => {
       activeColor: '#482084',
       card2Color: '#8A70B0',
       card3Color: '#69489A',
-      borderColor: '#482084', // Use activeColor for border
+      borderColor: '#482084', 
     },
     {
       id: 'employees',
@@ -40,7 +40,7 @@ const TabComponents = () => {
       activeColor: '#FF8100',
       card2Color: '#FFC58A',
       card3Color: '#FFAE5C',
-      borderColor: '#FF8100', // Use activeColor for border
+      borderColor: '#FF8100', 
     },
   ];
 
@@ -108,7 +108,7 @@ const TabComponents = () => {
                 <div
                   className="card card1"
                   style={{
-                    border: `1px solid ${currentTab.borderColor}`, // Dynamically setting border color for card1
+                    border: `1px solid ${currentTab.borderColor}`, 
                   }}
                 >
                   {tabs.map(tab => (
@@ -120,12 +120,11 @@ const TabComponents = () => {
                   ))}
                 </div>
 
-                {/* card2 and card3 only have background colors, no borders */}
                 <div
                   className="card card2"
                   style={{
                     backgroundColor: currentTab.card2Color,
-                    border: 'none', // Remove border for card2
+                    border: 'none', 
                   }}
                 ></div>
 
@@ -133,7 +132,7 @@ const TabComponents = () => {
                   className="card card3"
                   style={{
                     backgroundColor: currentTab.card3Color,
-                    border: 'none', // Remove border for card3
+                    border: 'none', 
                   }}
                 ></div>
               </div>
