@@ -296,28 +296,58 @@ background: linear-gradient(102deg, rgba(138,112,176,1) 59%, rgba(72,32,132,1) 9
 
   @media only screen and (max-width: 420px) {
     .perkmain {
-       display: grid;
+       display: flex;
+       flex-direction: column; /* Stack the items vertically */
+       gap: 15px; /* Adjust gap between the sections */
+    }
+
+    .perksec-cnt {
+        padding: 15px; /* Reduce padding to make it more compact */
     }
 
     .perk-btm-sec {
-        display: grid;
-        gap: 50px;
-
+        display: flex;
+        flex-direction: column; /* Stack the items */
+        gap: 20px; /* Adjust gap between items */
+        padding: 20px;
     }
+
     .perk-row {
-
+        display: flex;
+        flex-direction: column; /* Stack items vertically in the row */
         width: 100%;
-  }
+        gap: 10px; /* Space between elements in perk-row */
+    }
 
-  .pp {
-    padding: 20px;
-  }
-  .pl {
-    padding:20px;
-    
-  }
+    .pp, .pl {
+        padding: 20px; /* Adjust padding for smaller screens */
+        text-align: center; /* Center text content on smaller screens */
+    }
 
-  .perksection {
-    margin: 20px 0;
-  }
+    .second-sec {
+        gap: 10px; /* Reduce gap between sections */
+    }
+
+    .progress-bar-container {
+        height: 8px; /* Reduce height of the progress bar */
+    }
+
+    .app-icon {
+        display: flex;
+        justify-content: center; /* Center align icons */
+        gap: 10px; /* Add space between icons */
+    }
+
+    .app-icon-wrapbtm {
+        justify-content: center; /* Center the content on small screens */
+        gap: 10px; /* Space between items */
+    }
+
+    .perksec-cnt-btm {
+        padding: 10px; /* Reduce padding for compactness */
+    }
+    .app-clr {
+        width: 90px;
+        height: 60px;
+    }
 }
