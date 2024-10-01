@@ -244,6 +244,7 @@
     .tab-content {
         width: 100%;
         max-width: 100%;
+        padding: 0;
     }
     .rows-container {
         margin: 20px 0;
@@ -268,7 +269,17 @@
 
     .container1 {
         position: relative;
-        width: 80%;
+        width: 90%;
+    }
+
+    .card2 {
+        transform: translate(10px, 10px); 
+
+    }
+
+    .card3 {
+        transform: translate(20px, 20px); 
+
     }
 
 }

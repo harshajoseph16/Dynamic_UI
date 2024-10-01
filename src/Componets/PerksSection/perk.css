@@ -314,5 +314,10 @@ background: linear-gradient(102deg, rgba(138,112,176,1) 59%, rgba(72,32,132,1) 9
   }
   .pl {
     padding:20px;
+    
+  }
+
+  .perksection {
+    margin: 20px 0;
   }
 }

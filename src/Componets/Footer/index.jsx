@@ -95,13 +95,12 @@ const Footer = () => {
             <ul>
               <li>
                 <a href='#' key="privacy-policy">Privacy Policy</a>
-              </li>
-              <li>
                 <a href='#' key="terms-of-use">Terms of Use</a>
-              </li>
-              <li>
                 <a href='#' key="cookie-policy">Cookie Policy</a>
+
+
               </li>
+             
             </ul>
           </div>
           <p>Copyright © 2024 KPI Group. All Rights Reserved.</p>

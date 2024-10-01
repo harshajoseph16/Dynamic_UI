@@ -106,9 +106,15 @@ color: white;
         width: 100%;
     }
 
-    .footer-social {
+    .email-sec h5 {
+        text-align: center !important;
+        padding: 10px 0;
        
-        align-items: center;
+    }
+
+    .social-icons{
+       
+           justify-content: space-around;;
     }
 
     .footer-app img {
@@ -129,5 +135,18 @@ color: white;
     margin-bottom: 30px;
 
 
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.footer-middle {
+    width: 100%;
+    margin: 20px 0 0;
 }
 }
