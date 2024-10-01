@@ -16,7 +16,7 @@ const TabComponents = () => {
       activeColor: '#6C63FF',
       card2Color: '#A4C7FF',
       card3Color: '#81B2FF',
-      borderColor: '#A4C7FF',
+      borderColor: '#6C63FF', // Use activeColor for border
     },
     {
       id: 'line',
@@ -28,7 +28,7 @@ const TabComponents = () => {
       activeColor: '#482084',
       card2Color: '#8A70B0',
       card3Color: '#69489A',
-      borderColor: '#8A70B0',
+      borderColor: '#482084', // Use activeColor for border
     },
     {
       id: 'employees',
@@ -40,15 +40,13 @@ const TabComponents = () => {
       activeColor: '#FF8100',
       card2Color: '#FFC58A',
       card3Color: '#FFAE5C',
-      borderColor: '#FFC58A', 
+      borderColor: '#FF8100', // Use activeColor for border
     },
   ];
 
   const switchTab = () => {
     const currentIndex = tabs.findIndex(tab => tab.id === activeTab);
     const nextIndex = (currentIndex + 1) % tabs.length;
-
-
     setActiveTab(tabs[nextIndex].id);
   };
 
@@ -89,7 +87,7 @@ const TabComponents = () => {
               </div>
             </div>
 
-            <div className="">
+            <div className="tab-content-area">
               <div className="tabs-header">
                 {tabs.map(tab => (
                   <button
@@ -107,7 +105,12 @@ const TabComponents = () => {
               </div>
 
               <div className="container1">
-                <div className="card card1">
+                <div
+                  className="card card1"
+                  style={{
+                    border: `1px solid ${currentTab.borderColor}`, // Dynamically setting border color for card1
+                  }}
+                >
                   {tabs.map(tab => (
                     <div key={tab.id} className={`tab-content ${activeTab === tab.id ? 'active' : ''}`} id={tab.id}>
                       <p>{tab.content}</p>
@@ -117,19 +120,20 @@ const TabComponents = () => {
                   ))}
                 </div>
 
-
+                {/* card2 and card3 only have background colors, no borders */}
                 <div
                   className="card card2"
                   style={{
                     backgroundColor: currentTab.card2Color,
-                    borderColor: currentTab.borderColor
+                    border: 'none', // Remove border for card2
                   }}
                 ></div>
+
                 <div
                   className="card card3"
                   style={{
                     backgroundColor: currentTab.card3Color,
-                    borderColor: currentTab.borderColor
+                    border: 'none', // Remove border for card3
                   }}
                 ></div>
               </div>
