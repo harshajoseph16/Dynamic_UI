@@ -81,9 +81,7 @@ const Nav = () => {
                                 <div className="btn-div">
                                     <Button name="EN" className="mainbtn" />
 
-                                    <Button name="Login" className="mainbtn">
-
-                                    </Button>
+                                    <Button name="Login" className="mainbtn"> <img src='login.png'></img> </Button>
                                 </div>
                             </div>
                         </div>

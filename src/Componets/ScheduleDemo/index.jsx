@@ -6,7 +6,7 @@ const ScheduleDemo = () => {
         <>
             <Button name="ScheduleDemo" className="schbtn" />
 
-            <a id="button" class="show"><img src='message-text.png'></img></a>
+            <a id="button" className="show"><img src='message-text.png'></img></a>
         </>
     )
 }
